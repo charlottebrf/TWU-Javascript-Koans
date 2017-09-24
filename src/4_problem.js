@@ -5,13 +5,13 @@ function currencyCalculator(arrayOfNotes) {
       if (notes.includes(arrayOfNotes[i])) {
         found.push(arrayOfNotes[i]);
       } else {
-        found.push(0);
+        break;
       }
+      found;
     }
 
   let sum = 0;
   for(i = 0; i <= found.length; i++) {
-    if (notes[i] == "0") { break; }
       sum = found.reduce((a, b) => a + b, 0);
     }
     return sum;
