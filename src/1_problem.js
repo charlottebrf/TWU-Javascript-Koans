@@ -16,7 +16,6 @@ function kiteCompetition(number) {
     }
     return kitePhrase;
   }
-
 }
 
 module.exports = kiteCompetition;
